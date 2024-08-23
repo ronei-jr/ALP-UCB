@@ -17,5 +17,10 @@ int main() {
 	
 	if((compromisso == 0 && cidade == 1 && ((dinheiro == 1 && chovendo == 0) || (dinheiro == 0 && perto == 1)
 	))) {
-	printf
+	printf("Eu vou!");
+	} else if ((compromisso) || (!cidade) || (dinheiro && chovendo) || (!dinheiro && !perto)) {
+		printf("Nao vou!");
+	} else {
+		printf("Indefinido!");
+	
 }
